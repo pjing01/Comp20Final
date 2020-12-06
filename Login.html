@@ -32,17 +32,36 @@
         padding-top: 40px;
       }
     </style>
+    <script>
+      //login validation
+      //create account validation
+      //check with database?
+      //add to database?
+      //make event listeners for login and create
+    </script>
 </head>
 <body>
     <header style="text-align:center">
       <p>
-      <img src="RRlogo.png" alt="Real Recipes Logo" height="10%" width="33%">
+      <a href="index.html"><img src="RRlogo.png" alt="Real Recipes Logo" height="10%" width="33%"></a>
       </p>
       <br><br>
     </header>
-    
-    <form style="text-align:center" action="Login.html">
-    
+    <h2 style="text-align:center">Enter Your Username and Password</h2>
+    <form style="text-align:center">
+      Username: <input type="text" name="username" id="username"><br>
+      Password: <input type="text" name="password" id="password"><br>
+      <input type="button" name="login" id="login" value="Login">
+    </form>
+    <br><br>
+    <h2 style="text-align:center">Or Create An Account</h2>
+    <form style="text-align:center">
+      First Name: <input type="text" name="Fname" id="Fname"><br>
+      Last Name: <input type="text" name="Lname" id="Lname"><br>
+      Phone Number: <input type="text" name="phone" id="phone" placeholder="i.e 123 456 7890"><br>
+      Username*: <input type="text" name="username" id="username"><br>
+      Password*: <input type="text" name="password" id="password"><br>
+      <input type="button" name="newUser" id="newUser" value="Create">
     </form>
     
     <footer  style="text-align:center">
