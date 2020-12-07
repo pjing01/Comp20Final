@@ -3,35 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Recipe App">
-    <meta name="author" content="Eric, Jessica, Aidan, Pan">	
+    <meta name="author" content="Eric, Jessica, Aidan, Pan">
+    <link rel="stylesheet" href="RRstyle.css">
     <title>Real Recipes</title>
-	  <style>
-      body {
-        background-color: rgb(34,23,41);
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-      }
-      p {
-        padding-left: 40px;
-        padding-right: 40px;
-        font-size: 20px;
-      }
-      .button {
-        text-align: center;
-        background-color: white;
-        color: rgb(34,23,41);
-        font-size: 15px;
-      }
-      a:link {
-        color: white;
-      }
-      a:visited {
-        color: grey;
-      }
-      footer {
-        padding-top: 40px;
-      }
-    </style>
+
     <script>
       //login validation
       //create account validation
@@ -39,30 +14,29 @@
       //add to database?
       //make event listeners for login and create
     </script>
+
 </head>
 <body>
-    <header style="text-align:center">
-      <p>
-      <a href="index.html"><img src="RRlogo.png" alt="Real Recipes Logo" height="10%" width="33%"></a>
-      </p>
+  <header class="topnav">
+    <a href="index.html"><img src= "logo2.png" alt="Real Recipes Logo" height="35px" class="logo"></a>
+    <nav>
+      <ul>
+        <li><a href="About.html">About</a></li>
+        <li>|</li>
+        <li><a href="Login.html">Log in</a></li>
+        <li><a href="Signup.html">Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
+    <div class="login">
+      <h2>Log In</h2>
+      <form style="text-align:center">
+        <input type="text" name="username" id="username" placeholder="Username"><br>
+        <input type="text" name="password" id="password" placeholder="Password"><br>
+        <input type="button" name="login" id="login" value="Login">
+      </form>
+    </div>
       <br><br>
-    </header>
-    <h2 style="text-align:center">Enter Your Username and Password</h2>
-    <form style="text-align:center">
-      Username: <input type="text" name="username" id="username"><br>
-      Password: <input type="text" name="password" id="password"><br>
-      <input type="button" name="login" id="login" value="Login">
-    </form>
-    <br><br>
-    <h2 style="text-align:center">Or Create An Account</h2>
-    <form style="text-align:center">
-      First Name: <input type="text" name="Fname" id="Fname"><br>
-      Last Name: <input type="text" name="Lname" id="Lname"><br>
-      Phone Number: <input type="text" name="phone" id="phone" placeholder="i.e 123 456 7890"><br>
-      Username*: <input type="text" name="username" id="username"><br>
-      Password*: <input type="text" name="password" id="password"><br>
-      <input type="button" name="newUser" id="newUser" value="Create">
-    </form>
     
     <footer  style="text-align:center">
       Real Recipes <br>

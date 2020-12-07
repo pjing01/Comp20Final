@@ -3,63 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Recipe App">
-    <meta name="author" content="Eric, Jessica, Aidan, Pan">	
+    <meta name="author" content="Eric, Jessica, Aidan, Pan">
+    <link rel="stylesheet" href="RRstyle.css">
     <title>Real Recipes</title>
-	  <style>
-      body {
-        background-color: rgb(34,23,41);
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-      }
-      p {
-        padding-left: 40px;
-        padding-right: 40px;
-        font-size: 20px;
-      }
-      .button {
-        text-align: center;
-        background-color: white;
-        color: rgb(34,23,41);
-        font-size: 15px;
-      }
-      a:link {
-        color: white;
-      }
-      a:visited {
-        color: grey;
-      }
-      footer {
-        padding-top: 40px;
-      }
-    </style>
+	 
 </head>
+
 <body>
-    <header style="text-align:center">
+  <header class="topnav">
+    <a href="index.html"><img src= "logo2.png" alt="Real Recipes Logo" height="35px" class="logo"></a>
+    <nav>
+      <ul>
+        <li><a href="About.html">About</a></li>
+        <li>|</li>
+        <li><a href="Login.html">Log in</a></li>
+        <li><a href="Signup.html">Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
+    <br><br>
+    <div class="intro">
+      <h2 style="text-align:center">Rethink how you find your recipes...</h2>
       <p>
-      <img src="RRlogo.png" alt="Real Recipes Logo" height="10%" width="33%">
+        Welcome to Real Recipes! Our site allows you to find your perfect recipe 
+        with just a click of a button. Use our search bar to enter the name of 
+        the dish you're looking for, and we'll pull it up with in depth 
+        nutritional information! Or, enter the ingredients you have on hand, and 
+        we'll give you the best options for you! Be sure to enter any dietary 
+        restrictions too, so that we can give you our customized recommendations. 
+        <img src="pan.png" alt="Wok Logo" class="responsive">
       </p>
-      <br><br>
-    </header>
-    <h2 style="text-align:center">Rethink how you find your recipes...</h2>
-    <p>
-      Welcome to Real Recipes! Our site allows you to find your perfect recipe 
-      with just a click of a button. Use our search bar to enter the name of 
-      the dish you're looking for, and we'll pull it up with in depth 
-      nutritional information! Or, enter the ingredients you have on hand, and 
-      we'll give you the best options for you! Be sure to enter any dietray 
-      restrictions, too, so that we can give you our customized reccomendations. 
-    </p>
-    <p>
-      <h2 style="text-align:center">Get Started by Logging In!</h2>
-    </p>
-    <form style="text-align:center" action="Login.html">
-    <button class="button">Login</button>
-    </form>
+      <p>
+        <h2 style="text-align:center">Get Started by Logging In!</h2>
+      </p>
+      <form style="text-align:center" action="Login.html">
+      <button class="button">Login</button>
+      </form>
+    </div>
     
-    <footer  style="text-align:center">
+    <footer>
       Real Recipes <br>
-      <a href=#>help@RealRecipes.com</a> </br>
-      <a href=#>1-800-Healthy</a>
+      <a href=#>Help@RealRecipes.com</a> </br>
+      <a href=#>1-800-HEALTHY</a>
     </footer>
 </body>
 </html>
